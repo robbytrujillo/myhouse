@@ -5,3 +5,14 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
+
+header {
+    width: 100%;
+    /* Agar full satu layar */
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/images/header-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
