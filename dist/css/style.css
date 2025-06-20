@@ -6,6 +6,18 @@
     font-family: "Poppins", sans-serif;
 }
 
+.container {
+    width: 80%;
+    /* background-color: tomato; */
+    margin-inline: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 90%;
+    }
+}
+
 header {
     width: 100%;
     /* Agar full satu layar */
