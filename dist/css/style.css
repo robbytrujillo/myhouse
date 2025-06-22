@@ -40,3 +40,11 @@ header {
     display: flex;
     gap: 40px;
 }
+
+.navbar .menu li {
+    list-style-type: none;
+}
+
+.navbar .menu li a {
+    color: white;
+}
