@@ -62,9 +62,10 @@ header {
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
-    filter: blur(5px);
+    position: relative;
 }
 
 .navbar .our-app-btn:before {
     content: "";
+    position: absolute;
 }
