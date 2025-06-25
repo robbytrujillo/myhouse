@@ -109,11 +109,16 @@ header {
     .navbar .menu {
         position: absolute;
         top: 0;
-        left: 0;
+        left: -100%;
         flex-direction: column;
         width: 250px;
         height: 100vh;
         background-color: white;
         opacity: 0;
     }
+
+    .navbar .menu.menu-active {
+        left: 0;
+        opacity: 1;
+    } 
 }
