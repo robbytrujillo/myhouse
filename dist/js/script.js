@@ -1,6 +1,6 @@
 const btnHamburger = document.querySelector(".hamburger");
+const menu = document.querySelector(".menu");
+
 btnHamburger.addEventListener("click", () => {
     btnHamburger.classList.toggle("is-active");
 });
-
-const menu = document.querySelector(".menu");
