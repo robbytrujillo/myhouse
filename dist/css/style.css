@@ -87,6 +87,10 @@ header {
     background-color: rgba(172, 255, 47, 0.2);
 }
 
+.navbar .hamburger {
+    display: none;
+} 
+
 .navbar .hamburger-inner, 
 .navbar .hamburger-inner::before, 
 .navbar .hamburger-inner::after {
@@ -115,10 +119,30 @@ header {
         height: 100vh;
         background-color: white;
         opacity: 0;
+        transition: all 0.1s ease-out;
+        -webkit-transition: all 0.1s ease-out;
+        -moz-transition: all 0.1s ease-out;
+        -ms-transition: all 0.1s ease-out;
+        -o-transition: all 0.1s ease-out;
     }
 
     .navbar .menu.menu-active {
         left: 0;
         opacity: 1;
     } 
+
+    .navbar .menu li a {
+        color: black;
+    }
+
+    .navbar .hamburger {
+        display: inline-block;
+        padding: 0;
+    }
+
+    .navbar .our-app {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 }
