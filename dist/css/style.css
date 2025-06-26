@@ -234,5 +234,11 @@ header {
         gap: 10px;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .hero h1 {
+        font-size: 40px;
+    }
+}
 /* Header End */
 
