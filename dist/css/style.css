@@ -242,3 +242,22 @@ header {
 }
 /* Header End */
 
+/* Our House Start */
+.our-house {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.our-house .container > h1,
+.our-house .container > p {
+    text-align: center;
+}
+
+.our-house .container > h1 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+/* Our House End */
+
