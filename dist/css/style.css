@@ -259,5 +259,31 @@ header {
     font-weight: 600;
     margin-bottom: 5px;
 }
+
+.our-house .swiper {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.our-house .swiper .swiper-slide img {
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.our-house .swiper .house-desc {
+    margin-top: 10px;
+}
+
+.our-house .swiper .house-desc p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+.our-house .swiper .house-desc h4 {
+    color: rgba(0, 0, 0, 0.8);
+}
 /* Our House End */
 
