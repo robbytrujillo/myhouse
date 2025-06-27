@@ -91,11 +91,56 @@
         <div class="container">
             <h1>Most Viewed</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./assets/images/house-1.jpg" alt="house-img">
+                    <div class="house-desc">
+                        <h3>House 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    </div>
+                </div>
+                
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        
         </div>
     </div>
     <!-- Our House End -->
 
     <!-- JS -->
     <script src="./dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+            },
+            768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+            },
+            1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+            },
+        },
+        });
+    </script>
 </body>
 </html>
