@@ -265,6 +265,14 @@ header {
     padding-bottom: 50px;
 }
 
+.our-house .swiper .swiper-slide:hover {
+    cursor: grab;
+}
+
+.our-house .swiper .swiper-slide:hover:active {
+    cursor: grabbing;
+}
+
 .our-house .swiper .swiper-slide img {
     width: 100%;
     height: 200px;
@@ -284,6 +292,16 @@ header {
 
 .our-house .swiper .house-desc h4 {
     color: rgba(0, 0, 0, 0.8);
+}
+
+.our-house .btn-our-house {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.our-house .btn-our-house button {
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
 }
 /* Our House End */
 
