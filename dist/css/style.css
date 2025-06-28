@@ -248,6 +248,8 @@ header {
     min-height: 100vh;
     padding-top: 100px;
     padding-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .our-house .container > h1,
@@ -301,7 +303,18 @@ header {
 
 .our-house .btn-our-house button {
     padding: 10px 30px 10px 30px;
-    border-radius: 30px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: #a7c957;
+    cursor: pointer;
+}
+
+.our-house .btn-our-house button:hover {
+    background-color: #c5f063;
 }
 /* Our House End */
 
