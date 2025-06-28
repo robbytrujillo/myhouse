@@ -319,6 +319,43 @@ header {
 /* Our House End */
 
 /* About Us Start */
+.about {
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
 
+.about .about-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.about .about-box .box img {
+    width: 100%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.about .about-box .box:nth-child(1) {
+    position: relative;
+}
+
+.about .about-box .box:nth-child(1)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.about .about-box .box:nth-child(2) {
+
+}
 /* About Us End */
 
