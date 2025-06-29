@@ -366,6 +366,12 @@ header {
     -moz-transform: translate(20px, 20px);
     -ms-transform: translate(20px, 20px);
     -o-transform: translate(20px, 20px);
+    opacity: 50%;
+}
+
+.about .about-box .box h1 {
+    font-size: 50px;
+    line-height: 1.2;
 }
 
 .about .about-box .box:nth-child(2) {
