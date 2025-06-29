@@ -332,6 +332,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+    align-items: center;
 }
 
 .about .about-box .box img {
@@ -372,10 +373,27 @@ header {
 .about .about-box .box h1 {
     font-size: 50px;
     line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.about .about-box .box p {
+    margin-bottom: 10px;
+    line-height: 2;
 }
 
 .about .about-box .box:nth-child(2) {
 
+}
+
+@media screen and (max-width: 1200px) {
+    .about .about-box .box h1 {
+        font-size: 40px;
+    }
+
+    .about .about-box .box p {
+        font-size: 14px;
+    }
 }
 /* About Us End */
 
