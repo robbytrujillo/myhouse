@@ -395,5 +395,22 @@ header {
         font-size: 14px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .about .about-box {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .about .about-box .box h1 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+
+    .about .about-box .box p {
+        font-size: 12px;
+    }
+}
 /* About Us End */
 
