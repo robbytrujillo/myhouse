@@ -414,3 +414,15 @@ header {
 }
 /* About Us End */
 
+/* Services Start */
+.services {
+    width: 100px;
+    min-height: 100vh;
+}
+
+.services .container > h1,
+.services .container > p {
+    text-align: center;
+}
+/* Services End */
+
