@@ -397,6 +397,11 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    .about {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     .about .about-box {
         grid-template-columns: 1fr;
     }
