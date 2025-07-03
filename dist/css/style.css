@@ -416,13 +416,59 @@ header {
 
 /* Services Start */
 .services {
-    width: 100px;
+    width: 100%;
     min-height: 100vh;
+    display: grid;
+    align-items: center;
 }
 
 .services .container > h1,
 .services .container > p {
     text-align: center;
+}
+
+.services .service-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.services .service-box .box {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.services .service-box .box i {
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.services .service-box .box h3 {
+    margin-bottom: 10px;
+}
+
+.services .service-box .box p {
+    line-height: 2;
+}
+
+@media screen and (max-width: 992px) {
+    .services .service-box {
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services .service-box {
+        grid-template-columns: 1fr;
+    }
 }
 /* Services End */
 
