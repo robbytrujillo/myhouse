@@ -578,6 +578,13 @@ header {
     margin-bottom: 10px;
 }
 
+.recover .recover-box .box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 .recover .recover-box .box div img {
     width: 50px;
 }
