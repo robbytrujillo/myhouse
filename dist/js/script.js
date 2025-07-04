@@ -20,6 +20,7 @@ loadMore.addEventListener("click", () => {
     }
 
     jumlahItem += 3;
+    
     if (jumlahItem >= boxes.length) {
         loadMore.style.display = "none";
     }
