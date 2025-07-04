@@ -587,6 +587,7 @@ header {
 
 .recover .recover-box .box div img {
     width: 50px;
+    cursor: pointer;
 }
 /* Recover App End */
 
