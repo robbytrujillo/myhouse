@@ -626,6 +626,10 @@ header {
     margin-top: 50px;
 }
 
+/* .feedback .feedback-box .box {
+    border: 0;
+} */
+
 .feedback .feedback-box .box > p {
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -649,5 +653,22 @@ header {
     border-radius: 100%;
 }
 
+.feedback .load-more {
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.feedback .load-more .load-more-btn {
+    padding: 10px 30px 10px 30px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    cursor: pointer;
+    background-color: #a7c957;
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+}
 /* Feedback End */
 
