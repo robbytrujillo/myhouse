@@ -589,5 +589,15 @@ header {
     width: 50px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 475px) {
+    .recover .recover-box .box h1 {
+        font-size: 24px;
+    }
+
+    .recover .recover-box .box p {
+        font-sie: 12px;
+    }
+}
 /* Recover App End */
 
