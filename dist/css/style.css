@@ -626,16 +626,15 @@ header {
     margin-top: 50px;
 }
 
-/* .feedback .feedback-box .box {
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-    border-radius: 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    -ms-border-radius: 30px;
-    -o-border-radius: 30px;
-    padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-} */
+.feedback .feedback-box .box {
+    display: none;
+}
+
+.feedback .feedback-box .box:nth-child(1), 
+.feedback .feedback-box .box:nth-child(2), 
+.feedback .feedback-box .box:nth-child(3) {
+    display: inline-block;
+} 
 
 .feedback .feedback-box .box > p {
     padding: 20px;
