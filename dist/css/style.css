@@ -567,7 +567,15 @@ header {
     z-index: 1;
     color: white;
     text-align: center;
-    panding-inline: 20px;
+    padding-inline: 20px;
+}
+
+.recover .recover-box .box h1 {
+    margin-bottom: 10px;
+}
+
+.recover .recover-box .box p {
+    margin-bottom: 10px;
 }
 
 .recover .recover-box .box div img {
