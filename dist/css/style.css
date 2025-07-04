@@ -627,7 +627,14 @@ header {
 }
 
 /* .feedback .feedback-box .box {
-    border: 0;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
 } */
 
 .feedback .feedback-box .box > p {
@@ -669,6 +676,14 @@ header {
     cursor: pointer;
     background-color: #a7c957;
     border: 1px solid rgba(0, 0, 0, 0.5); 
+}
+
+.feedback .load-more .load-more-btn:hover {
+    background-color: #bee663;
+}
+
+.feedback .load-more .load-more-btn i {
+    margin-left: 10px;
 }
 /* Feedback End */
 
