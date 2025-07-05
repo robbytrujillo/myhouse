@@ -25,6 +25,8 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body id="home">
     <!-- Header Start -->
@@ -74,10 +76,10 @@
 
             <!-- Hero Start -->
             <div class="hero">
-                <h1>Find Your Dream <br />
+                <h1 data-aos="fade-right" data-aos-duration="1000">Find Your Dream <br />
                     House With Us
                 </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit voluptatibus doloribus doloremque totam ipsa aliquid explicabo beatae est nesciunt.</p>
+                <p data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit voluptatibus doloribus doloremque totam ipsa aliquid explicabo beatae est nesciunt.</p>
                 <button>Find Your House</button>
             </div>    
             <!-- Hero End -->
@@ -89,8 +91,8 @@
     <!-- Our House Start -->
     <div class="our-house" id="our-house">
         <div class="container">
-            <h1>Most Viewed</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Most Viewed</h1>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             
             <!-- Swiper -->
             <div class="swiper mySwiper">
@@ -153,7 +155,7 @@
                     <img src="./assets/images/about-img.jpg" alt="about-img">
                 </div>
                 <div class="box">
-                    <h1>Find Your Dream <br /> House With Us</h1>
+                    <h1 data-aos="fade-up" data-aos-duration="1000">Find Your Dream <br /> House With Us</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate animi vel aspernatur voluptatibus porro eveniet reprehenderit natus magnam! Commodi, similique!</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum amet deserunt aliquid nulla rerum consequuntur.</p>
                 </div>
@@ -399,6 +401,12 @@
             },
         },
         });
+    </script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>
