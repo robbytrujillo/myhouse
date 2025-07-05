@@ -60,7 +60,7 @@ header {
     text-decoration: none;
 }
 
-.navbar .our-app-btn {
+.navbar .our-app a {
     padding: 12px 24px 12px 24px;
     background-color: transparent;
     color: white;
@@ -73,9 +73,10 @@ header {
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
     position: relative;
+    text-decoration: none;
 }
 
-.navbar .our-app-btn::before {
+.navbar .our-app a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -93,7 +94,7 @@ header {
     -webkit-filter: blur(1px);
 }
 
-.navbar .our-app-btn:hover::before {
+.navbar .our-app a:hover::before {
     background-color: rgba(172, 255, 47, 0.2);
 }
 
@@ -131,7 +132,7 @@ header {
     line-height: 2;
 }
 
-.hero button {
+.hero a {
     padding: 12px 24px 12px 24px;
     background-color: transparent;
     color: white;
@@ -144,9 +145,10 @@ header {
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
     position: relative;
+    text-decoration: none;
 }
 
-.hero button::before {
+.hero a::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -164,7 +166,7 @@ header {
     -webkit-filter: blur(1px);
 }
 
-.hero button:hover::before {
+.hero a:hover::before {
     background-color: rgba(172, 255, 47, 0.2);
 }
 
