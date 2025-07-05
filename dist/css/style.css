@@ -606,7 +606,7 @@ header {
     width: 100%;
     min-height: 100vh;
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 
 .feedback .container > h1,
@@ -686,7 +686,7 @@ header {
 }
 /* Feedback End */
 
-// Footer Start
+/* Footer Start */
 footer {
     width: 100%;
     min-height: 50vh;
@@ -762,5 +762,23 @@ footer .footer-box .box:nth-child(2) {
         padding: 0;
     }
 }
-// Footer End
+/* Footer End */
+
+/* Copyright Start */
+.copyright {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.copyright p {
+    line-height: 2;
+    font-size: 14px;
+}
+
+.copyright p span {
+    font-weight: bold;
+}
+/* Copyright End */
+
 
